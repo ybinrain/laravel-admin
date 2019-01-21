@@ -1,0 +1,29 @@
+{
+    "name": "ybinrain/laravel-ace",
+    "authors": [
+        {
+            "name": "赵永斌",
+            "email": "zhaoyongbin@xiaomi.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ybinrain\\Ace\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ybinrain\\Ace\\AceServiceProvider"
+            ],
+            "aliases": {
+                "Ace": "Ybinrain\\Ace\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
