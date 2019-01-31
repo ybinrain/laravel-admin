@@ -1,9 +1,9 @@
 {
-    "name": "ybinrain/laravel-ace",
+    "name": "ybinrain/laravel-admin",
     "authors": [
         {
             "name": "赵永斌",
-            "email": "zhaoyongbin@xiaomi.com"
+            "email": "zyb0807@gmail.com"
         }
     ],
     "require": {
